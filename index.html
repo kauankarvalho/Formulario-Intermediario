@@ -30,7 +30,7 @@
     </header>
 
     <main class="flex justify-center pb-[10rem]">
-      <form class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem]">
+      <form class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem] flex flex-col gap-[3rem]">
         <fieldset class="flex flex-col gap-[1.6rem]">
           <legend
             class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
@@ -38,7 +38,7 @@
             Informações pessoais
           </legend>
 
-          <div id="name-wrapper" class="flex gap-[2.2rem] mt-[3.6rem]">
+          <div id="name-wrapper" class="flex gap-[2.2rem] mt-[3.2rem]">
             <div id="first-name" class="flex flex-col gap-[0.8rem] w-[100%]">
               <label class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]" for="first-name-input">
                 Nome
@@ -91,6 +91,29 @@
               type="password"
               id="password-input"
               name="password"
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend
+            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
+          >
+            Informações do mentor
+          </legend>
+
+          <div id="mentor-wrapper" class="flex flex-col gap-[0.8rem] w-[100%] mt-[3.2rem]">
+            <label
+              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+              for="mentor-name-input"
+            >
+              Nome do seu mentor<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(só o primeiro nome)</span>
+            </label>
+            <input
+              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+              type="text"
+              id="mentor-name-input"
+              name="mentor-name"
             />
           </div>
         </fieldset>

@@ -526,8 +526,8 @@ video {
   margin-top: 14rem;
 }
 
-.mt-\[3\.6rem\] {
-  margin-top: 3.6rem;
+.mt-\[3\.2rem\] {
+  margin-top: 3.2rem;
 }
 
 .mt-\[5\.8rem\] {
@@ -584,6 +584,10 @@ video {
 
 .gap-\[2\.2rem\] {
   gap: 2.2rem;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
 }
 
 .rounded-\[0\.8rem\] {
