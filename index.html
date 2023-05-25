@@ -29,8 +29,11 @@
       </section>
     </header>
 
-    <main class="flex justify-center pb-[10rem]">
-      <form class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem] flex flex-col gap-[3rem]">
+    <main class="flex flex-col items-center pb-[10rem]">
+      <form
+        class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem] flex flex-col gap-[3rem]"
+        id="mentoring"
+      >
         <fieldset class="flex flex-col gap-[1.6rem]">
           <legend
             class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
@@ -228,12 +231,20 @@
                   />
                 </div>
               </div>
-              
             </div>
           </fieldset>
-          
         </fieldset>
       </form>
+
+      <div class="bg-[#535971] px-[7.1rem] py-[5rem] max-w-[75rem] w-[100%] rounded-b-[2rem]">
+        <button
+          class="px-[4rem] py-[1.5rem] bg-[#FF5374] font-staatliches font-normal text-[2rem]/[2.6rem] text-white w-[100%] rounded-[2rem]"
+          type="submit"
+          form="mentoring"
+        >
+          salvar
+        </button>
+      </div>
     </main>
   </body>
 </html>
