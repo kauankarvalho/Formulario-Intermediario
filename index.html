@@ -18,7 +18,7 @@
   <body
     class="before:bg-[#535971] before:w-[100%] before:h-[43.6rem] before:absolute before:top-0 before:-z-10 h-screen bg-[#EFEFEF]"
   >
-    <header class="flex justify-center">
+    <header class="flex justify-center px-[5rem]">
       <section class="w-[100%] max-w-[75rem] mt-[14rem]">
         <div class="flex flex-col w-[100%] max-w-[42rem] gap-[1.8rem]">
           <h1 class="font-staatliches font-normal text-[4.8rem]/[6rem] text-white">Mentoria</h1>
@@ -29,25 +29,28 @@
       </section>
     </header>
 
-    <main class="flex flex-col items-center pb-[10rem]">
+    <main class="flex flex-col items-center pb-[10rem] px-[5rem]">
       <form
-        class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem] flex flex-col gap-[3rem]"
+        class="w-[100%] max-w-[75rem] p-[6.4rem] bg-white rounded-t-[2rem] mt-[5.8rem] flex flex-col gap-[3rem] max-[430px]:px-[3.2rem]"
         id="mentoring"
       >
         <fieldset class="flex flex-col gap-[1.6rem]">
           <legend
-            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
+            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%] max-[525px]:text-center"
           >
             Informações pessoais
           </legend>
 
-          <div id="name-wrapper" class="flex gap-[2.2rem] mt-[3.2rem]">
+          <div id="name-wrapper" class="flex gap-[2.2rem] mt-[3.2rem] max-[575px]:flex-col">
             <div id="first-name" class="flex flex-col gap-[0.8rem] w-[100%]">
-              <label class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]" for="first-name-input">
+              <label
+                class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
+                for="first-name-input"
+              >
                 Nome
               </label>
               <input
-                class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+                class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
                 type="text"
                 id="first-name-input"
                 name="first-name"
@@ -56,11 +59,14 @@
             </div>
 
             <div id="last-name" class="flex flex-col gap-[0.8rem] w-[100%]">
-              <label class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]" for="last-name-input">
+              <label
+                class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
+                for="last-name-input"
+              >
                 Sobrenome
               </label>
               <input
-                class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+                class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
                 type="text"
                 id="last-name-input"
                 name="last-name"
@@ -71,13 +77,13 @@
 
           <div id="email-wrapper" class="flex flex-col gap-[0.8rem] w-[100%]">
             <label
-              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:flex-col max-[525px]:gap-[0] max-[525px]:items-center max-[525px]:text-center"
               for="email-input"
             >
               E-mail<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(digite um email válido)</span>
             </label>
             <input
-              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
               type="email"
               id="email-input"
               name="email"
@@ -87,13 +93,13 @@
 
           <div id="password-wrapper" class="flex flex-col gap-[0.8rem] w-[100%]">
             <label
-              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:flex-col max-[525px]:gap-[0] max-[525px]:items-center max-[525px]:text-center"
               for="password-input"
             >
               Senha<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(mínimo de 6 caracteres)</span>
             </label>
             <input
-              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
               type="password"
               id="password-input"
               name="password"
@@ -105,20 +111,20 @@
 
         <fieldset>
           <legend
-            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
+            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%] max-[525px]:text-center"
           >
             Informações do mentor
           </legend>
 
           <div id="mentor-wrapper" class="flex flex-col gap-[0.8rem] w-[100%] mt-[3.2rem]">
             <label
-              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+              class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:flex-col max-[525px]:gap-[0] max-[525px]:items-center max-[525px]:text-center"
               for="mentor-name-input"
             >
               Nome do seu mentor<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(só o primeiro nome)</span>
             </label>
             <input
-              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958]"
+              class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] max-[525px]:text-center"
               type="text"
               id="mentor-name-input"
               name="mentor-name"
@@ -129,24 +135,26 @@
 
         <fieldset class="flex flex-col gap-[1.6rem]">
           <legend
-            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%]"
+            class="font-staatliches font-normal text-[2.4rem]/[3.4rem] text-[#535971] pb-[1.6rem] border-b-[0.1rem] border-[#E6E6F0] w-[100%] max-[525px]:text-center"
           >
             Seus horários disponíveis
           </legend>
 
           <fieldset class="mt-[3.2rem]">
-            <legend class="font-staatliches font-normal text-[2rem]/[3.4rem] text-[#535971]">Primeira mentoria</legend>
+            <legend class="font-staatliches font-normal text-[2rem]/[3.4rem] text-[#535971] max-[525px]:text-center">
+              Primeira mentoria
+            </legend>
 
-            <div id="first-mentoring" class="flex gap-[3.2rem] mt-[0.8rem]">
+            <div id="first-mentoring" class="flex gap-[3.2rem] mt-[0.8rem] max-[575px]:flex-col">
               <div id="first-date-wrapper" class="flex flex-col gap-[0.8rem] w-[100%]">
                 <label
-                  class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                  class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:flex-col max-[525px]:gap-[0] max-[525px]:items-center"
                   for="first-date-input"
                 >
                   Data<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(DD/MM/AAAA)</span>
                 </label>
                 <input
-                  class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                  class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                   type="date"
                   id="first-date-input"
                   name="first-date"
@@ -154,16 +162,16 @@
                 />
               </div>
 
-              <div id="first-time" class="flex gap-[1rem] w-[100%]">
+              <div id="first-time" class="flex gap-[1rem] w-[100%] max-[390px]:flex-col">
                 <div id="first-start" class="flex flex-col gap-[0.8rem] w-[100%]">
                   <label
-                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:justify-center"
                     for="first-start-input"
                   >
                     Das
                   </label>
                   <input
-                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                     type="time"
                     id="first-start-input"
                     name="first-start"
@@ -173,13 +181,13 @@
 
                 <div id="first-end" class="flex flex-col gap-[0.8rem] w-[100%]">
                   <label
-                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:justify-center"
                     for="first-end-input"
                   >
                     Até
                   </label>
                   <input
-                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                     type="time"
                     id="first-end-input"
                     name="first-end"
@@ -191,18 +199,20 @@
           </fieldset>
 
           <fieldset>
-            <legend class="font-staatliches font-normal text-[2rem]/[3.4rem] text-[#535971]">Segunda mentoria</legend>
+            <legend class="font-staatliches font-normal text-[2rem]/[3.4rem] text-[#535971] max-[525px]:text-center">
+              Segunda mentoria
+            </legend>
 
-            <div id="second-mentoring" class="flex gap-[3.2rem] mt-[0.8rem]">
+            <div id="second-mentoring" class="flex gap-[3.2rem] mt-[0.8rem] max-[575px]:flex-col">
               <div id="second-date-wrapper" class="flex flex-col gap-[0.8rem] w-[100%]">
                 <label
-                  class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                  class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:flex-col max-[525px]:gap-[0] max-[525px]:items-center"
                   for="second-date-input"
                 >
                   Data<span class="text-[1.2rem]/[2.4rem] text-[#C1BCCC]">(DD/MM/AAAA)</span>
                 </label>
                 <input
-                  class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                  class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                   type="date"
                   id="second-date-input"
                   name="second-date"
@@ -210,16 +220,16 @@
                 />
               </div>
 
-              <div id="second-time" class="flex gap-[1rem] w-[100%]">
+              <div id="second-time" class="flex gap-[1rem] w-[100%] max-[390px]:flex-col">
                 <div id="second-start" class="flex flex-col gap-[0.8rem] w-[100%]">
                   <label
-                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:justify-center"
                     for="second-start-input"
                   >
                     Das
                   </label>
                   <input
-                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                     type="time"
                     id="second-start-input"
                     name="second-start"
@@ -229,13 +239,13 @@
 
                 <div id="second-end" class="flex flex-col gap-[0.8rem] w-[100%]">
                   <label
-                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem]"
+                    class="font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] flex gap-[0.9rem] max-[525px]:justify-center"
                     for="second-end-input"
                   >
                     Até
                   </label>
                   <input
-                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text"
+                    class="w-[100%] bg-[#FAFAFC] h-[5.6rem] rounded-[0.8rem] border-[0.1rem] border-[#E6E6F0] outline-none focus:border-[0.2rem] focus:border-[#4E4958] px-[1.5rem] font-poppins font-normal text-[1.4rem]/[2.4rem] text-[#4E4958] cursor-text max-[525px]:text-center"
                     type="time"
                     id="second-end-input"
                     name="second-end"
@@ -250,7 +260,7 @@
 
       <div class="bg-[#535971] px-[7.1rem] py-[5rem] max-w-[75rem] w-[100%] rounded-b-[2rem]">
         <button
-          class="px-[4rem] py-[1.5rem] bg-[#FF5374] font-staatliches font-normal text-[2rem]/[2.6rem] text-white w-[100%] rounded-[2rem] hover:opacity-70 transition-opacity duration-[0.3s]"
+          class="px-[4rem] py-[1.5rem] bg-[#FF5374] font-staatliches font-normal text-[2rem]/[2.6rem] text-white w-[100%] rounded-[2rem] hover:opacity-70 transition-opacity duration-[0.3s] max-[430px]:px-[1rem]"
           type="submit"
           form="mentoring"
         >

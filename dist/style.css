@@ -689,6 +689,11 @@ input[type="date"]::-webkit-calendar-picker-indicator,
   padding-right: 4rem;
 }
 
+.px-\[5rem\] {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-\[7\.1rem\] {
   padding-left: 7.1rem;
   padding-right: 7.1rem;
@@ -840,4 +845,50 @@ input[type="date"]::-webkit-calendar-picker-indicator,
 .focus\:border-\[\#4E4958\]:focus {
   --tw-border-opacity: 1;
   border-color: rgb(78 73 88 / var(--tw-border-opacity));
+}
+
+@media (max-width: 575px) {
+  .max-\[575px\]\:flex-col {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 525px) {
+  .max-\[525px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[525px\]\:items-center {
+    align-items: center;
+  }
+
+  .max-\[525px\]\:justify-center {
+    justify-content: center;
+  }
+
+  .max-\[525px\]\:gap-\[0\] {
+    gap: 0;
+  }
+
+  .max-\[525px\]\:text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .max-\[430px\]\:px-\[1rem\] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .max-\[430px\]\:px-\[3\.2rem\] {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .max-\[390px\]\:flex-col {
+    flex-direction: column;
+  }
 }
